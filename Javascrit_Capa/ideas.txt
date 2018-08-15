@@ -1,0 +1,5 @@
+1. hacer un programa que el usuario deba ingresar la contrasena hasta 3 veces y luego salga si la ingresa mal. Si la ingresa bien, que le tire un mensaje.
+2. Hacer un ahorcado, el juego.
+3. Seguir el programa de sorteador aleatorio.
+4. Ver mas For y While
+5. Ver funciones
