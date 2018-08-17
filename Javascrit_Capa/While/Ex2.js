@@ -9,4 +9,3 @@ while(clave != '123') {
     console.log('Contrasena incorrecta, reintente nuevamente.')
 }
     console.log('Gracias!')
-
