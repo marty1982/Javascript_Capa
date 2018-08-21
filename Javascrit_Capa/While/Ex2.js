@@ -5,8 +5,10 @@ var prompt = require('prompt-sync')()
 var clave = ''
 
 while(clave != '123') {
-    clave = prompt('Ingrese su contrasena para continuar: ' )
-    console.log('Contrasena incorrecta, reintente nuevamente.')
+    clave = prompt('Ingrese su contrasena para continuar: ' ) 
+        console.log('Contrasena incorrecta, reintente nuevamente.') 
 }
     console.log('Gracias!')
 
+
+// ver porque no me pone el Gracias solo cuando es correcta

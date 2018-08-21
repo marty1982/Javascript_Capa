@@ -10,3 +10,5 @@ for (i = 0; i < 5; i++) {
 }
     console.log(`Los nombres ingresados son ${arr_nombres}`)
 
+    
+// falta hacer que sortee aleatoriamente.
