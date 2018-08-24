@@ -3,11 +3,14 @@
 // por ejemplo "2 * 9 = 18"
 
 var prompt = require('prompt-sync')()
-    console.log('Tabla de multiplicar del 9 \n')
 
-var multiplicador = 9
+console.log('Tabla de multiplicar \n')
+
+var num = ''
+
+num = prompt('Ingrese un número:' )
 
 for (i = 0; i <= 10; i++) {
-    resultado = multiplicador * i
-    console.log(multiplicador + ' * ' + i + ' = ' + resultado)    
+    resultado = num * i
+    console.log(num + ' * ' + i + ' = ' + resultado)    
 }

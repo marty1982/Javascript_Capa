@@ -5,17 +5,10 @@ var prompt = require('prompt-sync')()
 var clave = ''
 
 while(clave != '123') {
-<<<<<<< HEAD
-    clave = prompt('Ingrese su contrasena para continuar: ' ) 
-        console.log('Contrasena incorrecta, reintente nuevamente.') 
-}
-    console.log('Gracias!')
+    clave = prompt('Ingrese su contraseña para continuar: ' )
 
-
-// ver porque no me pone el Gracias solo cuando es correcta
-=======
-    clave = prompt('Ingrese su contrasena para continuar: ' )
-    console.log('Contrasena incorrecta, reintente nuevamente.')
+    console.log('Error, intente nuevamente') 
 }
-    console.log('Gracias!')
->>>>>>> 44862ded01ffc7549adc06f71b4db29d501e1bc2
+    console.log('Gracias') 
+
+// ver porque al ingresar la contraseña me salen ambos mensajes de console log.
