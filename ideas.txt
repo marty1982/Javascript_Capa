@@ -1,6 +1,7 @@
 1. hacer un programa que el usuario deba ingresar la contrasena hasta 3 veces y luego salga si la ingresa mal. Si la ingresa bien, que le tire un mensaje. HECHO
-2. Hacer juego El ahorcado.
-3. Seguir el programa de sorteador aleatorio.
-4. Ver mas For y While
-5. Ver funciones.
+2. Ver funciones. Hacer upgrade en el programa calculadora y usar funciones.
+3. Hacer juego El ahorcado.
+4. Seguir el programa de sorteador aleatorio.
+5. Ver mas For y While
+5. 
 6.
