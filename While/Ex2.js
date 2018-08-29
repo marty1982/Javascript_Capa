@@ -6,7 +6,6 @@ var clave = ''
 
 while(clave != '123') {
     clave = prompt('Ingrese su contraseña para continuar: ' )
-
     console.log('Error, intente nuevamente') 
 }
     console.log('Gracias') 
