@@ -3,5 +3,4 @@
 3. Hacer juego El ahorcado.
 4. Seguir el programa de sorteador aleatorio.
 5. Ver mas For y While
-5. 
-6.
+5. Empezar a ver los ejercicios propuestos por JP y volver a hacerlos.
