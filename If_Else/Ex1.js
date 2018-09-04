@@ -1,16 +1,19 @@
-// Programa para saber que numero es mas grande
-// Escribir una funcion llamada greaterNum que:
-//  tome dos numeros y diga cual es mayor de esta manera: Entre el numero 5 y 10 el 10 es mayor.
+// Escribr una funcion llamada HelloWorld que:
+// Tome 1 argumento, un codigo de idioma (EN, FR, BR, DE)
+// Devuelva la traduccion en dicho idioma, al menos con 4 idiomas. 
 // Fuente: www.teaching-materials.org/javascript/excercises/ifelse
  
 var prompt = require('prompt-sync')()
 
-var num1 = prompt('Ingrese el primer numero: ')
-var num2 = prompt('Ingrese el segundo numero: ')
+console.log('En que idioma desea traducir "Hola Mundo?"')
+var lang = prompt('Seleccione cual desea (EN, FR, BR, DE): ')
 
-function greaterNum(num1, num2) {
-}  if (num1 > num2) {
-        console.log(`El numero ${num1} es mayor que el numero ${num2}`)
-} else if(num1 < num2) {
-        console.log(`El numero ${num1} es menor que el numero ${num2}`)
+   if (lang == 'en') {
+     console.log('Hello World')
+}   else if (lang == 'fr') {
+     console.log('Bounjour a tout le monde') 
+}   else if (lang == 'br') {
+    console.log('Olá Mundo')
+}   else if (lang == 'de') {
+    console.log('Hallo Welt')  
 }

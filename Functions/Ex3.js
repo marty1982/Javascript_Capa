@@ -1,22 +1,16 @@
-// Convertidor de temperatura de grados a Fahreheit y viceversa
-
+// Programa para saber que numero es mas grande
+// Escribir una funcion llamada greaterNum que:
+//  tome dos numeros y diga cual es mayor de esta manera: Entre el numero 5 y 10 el 10 es mayor.
+// Fuente: www.teaching-materials.org/javascript/excercises/ifelse
+ 
 var prompt = require('prompt-sync')()
 
-console.log('1 Grados a Fahrenheit')
-console.log('2 Fahrenheit a Grados')
+var num1 = prompt('Ingrese el primer numero: ')
+var num2 = prompt('Ingrese el segundo numero: ')
 
-var input = prompt('Ingrese una opcion: ')
-
-
-function cToF() {
-    num = prompt('Ingrese un numero: ')
-    var valor1 = 10
-    var valor2 = 1.8
-    resultado = (num * valor2) 
-    console.log('El resultado es: ' + resultado)
-
+function greaterNum(num1, num2) {
+}  if (num1 > num2) {
+        console.log(`El numero ${num1} es mayor que el numero ${num2}`)
+} else if(num1 < num2) {
+        console.log(`El numero ${num1} es menor que el numero ${num2}`)
 }
-
-cToF()
-
-// no hace bien el calculo
