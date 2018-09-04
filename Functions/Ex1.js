@@ -1,7 +1,5 @@
 // Ejemplo basico de funcion
 
-var prompt = require('prompt-sync')()
-
 var numero1 = 3
 var numero2 = 5
 
