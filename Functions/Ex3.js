@@ -7,10 +7,16 @@ console.log('2 Fahrenheit a Grados')
 
 var input = prompt('Ingrese una opcion: ')
 
-    if (input == '1') {
-       var numCtoF = prompt('Ingrese un numero para convertir de C a F: ')
-}   else if (input3 = '2') {
-       var numFtoC = prompt('Ingrese un numero para convertir de F a C: ')
+
+function cToF() {
+    num = prompt('Ingrese un numero: ')
+    var valor1 = 10
+    var valor2 = 1.8
+    resultado = (num * valor2) 
+    console.log('El resultado es: ' + resultado)
+
 }
 
-// armar bien la funcion
+cToF()
+
+// no hace bien el calculo

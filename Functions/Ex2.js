@@ -4,7 +4,7 @@
 var prompt = require('prompt-sync')()
 
 while(true) {
-var numero = prompt('Ingrese un numero: ')
+var numero = prompt('Ingrese un numero (o presione x para salir): ')
     if(numero === 'x')
     process.exit()
 
