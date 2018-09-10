@@ -1,4 +1,4 @@
-// Ejemplo basico de Array con los dias de la semana
+// Ejemplo basico de Array con los dias de la semana y los meses del año
 
 var prompt = require('prompt-sync')()
 
