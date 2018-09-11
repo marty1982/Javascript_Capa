@@ -6,7 +6,7 @@ prompt = require('prompt-sync')()
 var arr_nombres = []
 
 for (i = 0; i < 5; i++) {
-    arr_nombres.push(prompt('Ingrese 5 nombres: ')) }   
+    arr_nombres.push(prompt('Ingrese un nombre: ')) }   
     console.log(`Los nombres ingresados son: ${arr_nombres}`)
 
     
