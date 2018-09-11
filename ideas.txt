@@ -4,3 +4,7 @@
 4. Seguir el programa de sorteador aleatorio.
 5. Ver mas For y While.
 5. Empezar a ver los ejercicios propuestos por JP y volver a hacerlos.
+
+
+ejercicios:
+- https://practity.com/582-2/
