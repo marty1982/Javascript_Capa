@@ -3,7 +3,6 @@
 3. Hacer juego El ahorcado.
 4. Seguir el programa de sorteador aleatorio.
 5. Ver mas For y While.
-5. Empezar a ver los ejercicios propuestos por JP y volver a hacerlos.
 
 
 ejercicios:
@@ -15,7 +14,7 @@ Ejerecios:
 La entrada y la salida entonces deben ser listas. Acá se puede modelar la lista como una serie de ingresos secuenciales, 
 o bien como un unico ingreso de nros separados por coma (lo cual llevará a "parsear" el string de entrada detectando las comas, puede ser mas complejo pero es una opcion)
 
-2. Dado un nro, devolver si se trata o no de un nro primo. HECHO
+2. Dado un nro, devolver si se trata o no de un nro primo. *** HECHO ***
 
 3. Dado un nro, calcular el factorial de dicho nro
 El factorial de un nro n es el producto de los nros entre n y 1
