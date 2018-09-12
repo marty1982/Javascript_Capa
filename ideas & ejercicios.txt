@@ -1,0 +1,37 @@
+1. hacer un programa que el usuario deba ingresar la contrasena hasta 3 veces y luego salga si la ingresa mal. Si la ingresa bien, que le tire un mensaje. HECHO
+2. Ver funciones. Hacer upgrade en el programa calculadora y usar funciones. HECHO
+3. Hacer juego El ahorcado.
+4. Seguir el programa de sorteador aleatorio.
+5. Ver mas For y While.
+5. Empezar a ver los ejercicios propuestos por JP y volver a hacerlos.
+
+
+ejercicios:
+- https://practity.com/582-2/
+
+Ejerecios:
+
+1. Dada una lista de nros enteros, ordenarlos de mayor a menor:
+La entrada y la salida entonces deben ser listas. Acá se puede modelar la lista como una serie de ingresos secuenciales, 
+o bien como un unico ingreso de nros separados por coma (lo cual llevará a "parsear" el string de entrada detectando las comas, puede ser mas complejo pero es una opcion)
+
+2. Dado un nro, devolver si se trata o no de un nro primo. HECHO
+
+3. Dado un nro, calcular el factorial de dicho nro
+El factorial de un nro n es el producto de los nros entre n y 1
+Ejemplo:
+factorial de 4 (se escribe "4!") es 4 x 3 x 2 x 1 = 24 factorial de 6 (es decir "6!") es 6 x 5 x 4 x 3 x 2 x 1 = 720
+por definicion, se considera que factorial de cero ("0!") es 1
+Bonus: podemos ver que la definicion de factorial de n es n * (n - 1)! es decir, "el factorial de un nro n es igual a n multiplicado por el factorial de n menos 1), por ejemplo:
+4! = 4 x 3! = 4 x 3 x 2 x 1
+
+4. Dada una palabra, devolver la cantidad de caracteres que tiene
+
+5. Dada una oracion formada por varias palabras, devolver la cantidad de palabras
+
+6. Dada una palabra, devolver la misma palabra al reves
+Por ejemplo, si la entrada es "hola", el programa debe devolver "aloh".
+
+7. Dada una palabra de 4 letras, devolver todos sus anagramas
+Es decir, dada la palabra "hola", devolver:
+hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo laho alho aloh laoh oalh aolh loah olah
