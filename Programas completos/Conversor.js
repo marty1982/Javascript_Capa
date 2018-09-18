@@ -23,8 +23,8 @@ var num = prompt('Ingrese un numero: ')
         fToC()       
 }   else if (input === '3') {
         cToK()
-}  
-   
+} 
+
 function cToF() {
     var resultado = (num * valor2) + valor1
     console.log('El resultado es: \n ' + resultado + '\n')
