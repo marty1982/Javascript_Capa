@@ -5,8 +5,11 @@ var prompt = require('prompt-sync')()
 var diasSem = []
 var meses = []
 
-for(i=0; i < 7; i++)
-    diasSem.push(prompt('Ingrese dia: '))
+for(i = 0; i < 7; i++) {
+    var diaIngresado = prompt('Ingrese dia: ')
+    diasSem.push(diaIngresado)
+}
+
 for(i=0; i < 12; i++)
     meses.push(prompt('ingrese los meses del año: '))
     

@@ -13,3 +13,5 @@ for (i = 1; i <= num; i++) {
 }
 
 console.log(`El resultado es ${resultado}`)
+
+// hacer loop decreciente, que el calculo lo haga al reves y no empezando por el 1 como ahora

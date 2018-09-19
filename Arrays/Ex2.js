@@ -4,7 +4,8 @@ var prompt = require('prompt-sync')()
 
 var colores = []
 
-for(i = 0; i < 5; i++)
+for(i = 0; i < 5; i++) {
     colores.push(prompt('Ingrese 5 colores: '))
+}
 
-console.log(colores.toString())
+console.log('Los colores ingresados son: ' + colores)
