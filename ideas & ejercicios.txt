@@ -15,8 +15,7 @@ o bien como un unico ingreso de nros separados por coma (lo cual llevará a "par
 
 2. Dado un nro, devolver si se trata o no de un nro primo. *** HECHO ***
 
-3. Dado un nro, calcular el factorial de dicho nro
-El factorial de un nro n es el producto de los nros entre n y 1
+3. Dado un nro, calcular el factorial de dicho nro: El factorial de un nro n es el producto de los nros entre n y 1
 Ejemplo:
 factorial de 4 (se escribe "4!") es 4 x 3 x 2 x 1 = 24 factorial de 6 (es decir "6!") es 6 x 5 x 4 x 3 x 2 x 1 = 720
 por definicion, se considera que factorial de cero ("0!") es 1
@@ -35,11 +34,11 @@ hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo 
 
 ---------------------------
 
-- ver fucniones que reciban valores y return (calculadora)
-- posiciones de los arrays, ver mas arrays
--ver arrays dentro de arrays con for aninado
+- Ver funciones que reciban valores y return (calculadora)
+- Posiciones de los arrays, ver mas arrays como ejercicio.
+- Ver arrays dentro de arrays con for aninado.
 
-- dar vuelta ejerciocoi de factorial, que lo haga de adelante para atras y no como esta hecho
+- dar vuelta ejercicio de factorial, que lo haga de adelante para atras y no como esta hecho
 
 --------------------------
 
