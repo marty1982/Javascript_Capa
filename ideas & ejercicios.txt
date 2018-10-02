@@ -1,8 +1,8 @@
-1. hacer un programa que el usuario deba ingresar la contrasena hasta 3 veces y luego salga si la ingresa mal. Si la ingresa bien, que le tire un mensaje. HECHO
-2. Ver funciones. Hacer upgrade en el programa calculadora y usar funciones. HECHO
+1. hacer un programa que el usuario deba ingresar la contrasena hasta 3 veces y luego salga si la ingresa mal. Si la ingresa bien, que le tire un mensaje. *** HECHO ***
+2. Ver funciones. Hacer upgrade en el programa calculadora y usar funciones. *** HECHO ***
 3. Hacer juego El ahorcado.
 4. Seguir el programa de sorteador aleatorio.
-5. Ver mas For y While.
+5. Ver mas For y While. *** HECHO ***
 
 ejercicios:
 - https://practity.com/582-2/
@@ -34,7 +34,7 @@ hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo 
 
 ---------------------------
 
-- Ver funciones que reciban valores y return (calculadora)
+- Ver funciones que reciban valores y return (calculadora).
 - Posiciones de los arrays, ver mas arrays como ejercicio.
 - Ver arrays dentro de arrays con for aninado.
 
