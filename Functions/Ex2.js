@@ -1,22 +1,11 @@
-// Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es 
-// par o impar. Mostrar por pantalla el resultado devuelto por la función.
+// Ejemplo basico de una funcion con valor de retorno (return) y argumento
 
-var prompt = require('prompt-sync')()
+var suma = function(num1, num2){
+    var num1 = num1
+    var num2 = num2
 
-while(true) {
-var numero = prompt('Ingrese un numero (o presione x para salir): ')
-    if(numero === 'x')
-    process.exit()
-
-var resultado = parImpar(numero)
-    console.log('El numero ' +numero+' es ' +resultado)
-  
-function parImpar(numero) {
-    if(numero % 2 == 0) {
-        return 'par'
-    }
-    else {
-        return 'impar'
-     }
-    }
+    return num1 + num2
 }
+console.log(suma(10,30))
+console.log(suma(50,50))
+console.log('El resultado es: ' + suma(70,50))

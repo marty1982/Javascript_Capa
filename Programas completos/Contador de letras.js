@@ -1,6 +1,8 @@
-// Contador de letras
+// Contador de caracteres a partir de un input.
 
 var prompt = require('prompt-sync')()
 
-var input =  prompt('Ingrese una palabra: ')
+input = prompt('Ingrese una palabra: ')
+
+console.log('La palabra ' + input + ' tiene ' + input.length + ' caracteres')
 

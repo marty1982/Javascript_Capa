@@ -1,19 +1,28 @@
-// Escribir una funcion que voltee un numero de dos digitos o mas.
-// Detectar si el input es un numero o una letra.
-
+// Programa para saber que numero es mas grande
+// Escribir una funcion llamada greaterNum que tome dos numeros y diga cual es mayor de esta manera: Entre el numero 5 y 10 el 10 es mayor.
+ 
 var prompt = require('prompt-sync')()
 
+var num1 = prompt('Ingrese el primer numero: ')
+var num2 = prompt('Ingrese el segundo numero: ')
 
-input = prompt('Ingrese un número: ')
+// function greaterNum(num1, num2) {
+// }  if (num1 > num2) {
+//         console.log(`El numero ${num1} es mayor que el numero ${num2}`)
+// } else if(num1 < num2) {
+//         console.log(`El numero ${num1} es menor que el numero ${num2}`)
+// }
 
-function numReverso () {
-    if (isNaN(input)){
-        console.error('Debe ingresar un número, no una letra!.');
-        process.exit()
-    }
+// greaterNum()
 
-    num = input.split("").reverse().join("")
-    console.log(`El numero reverso es: ${num}`)
+function greaterNum(num1, num2){
+        if (num1 > num2){
+        console.log('El numero ' +num1+ ' es mas grande que ' +num2)
+        return num1
+}  else {
+        console.log('El numero ' +num1+ ' es mas chico que ' +num2)
+        return num2    
+        }
 }
-    
-numReverso()
+
+greaterNum(num1,num2)

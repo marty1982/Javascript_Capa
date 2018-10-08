@@ -6,11 +6,11 @@ var prompt = require('prompt-sync')()
 
 var array_num = []
 
-function sortNumber (a,b) {
-    return a-b
+function sortNumber(a, b) {
+    return a - b
 }
 
-for(i = 0; i < 5; i ++) {
+for (i = 0; i < 5; i++) {
     array_num.push(prompt('Ingrese 5 numeros: '))
     array_num.sort(sortNumber)
 }

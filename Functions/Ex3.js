@@ -1,16 +1,22 @@
-// Programa para saber que numero es mas grande
-// Escribir una funcion llamada greaterNum que tome dos numeros y diga cual es mayor de esta manera: Entre el numero 5 y 10 el 10 es mayor.
- 
+// Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es 
+// par o impar. Mostrar por pantalla el resultado devuelto por la función.
+
 var prompt = require('prompt-sync')()
 
-var num1 = prompt('Ingrese el primer numero: ')
-var num2 = prompt('Ingrese el segundo numero: ')
+while(true) {
+var numero = prompt('Ingrese un numero (o presione x para salir): ')
+    if(numero === 'x')
+    process.exit()
 
-function greaterNum(num1, num2) {
-}  if (num1 > num2) {
-        console.log(`El numero ${num1} es mayor que el numero ${num2}`)
-} else if(num1 < num2) {
-        console.log(`El numero ${num1} es menor que el numero ${num2}`)
+var resultado = parImpar(numero)
+    console.log('El numero ' +numero+' es ' +resultado)
+  
+function parImpar(numero) {
+    if(numero % 2 == 0) {
+        return 'par'
+    }
+    else {
+        return 'impar'
+     }
+    }
 }
-
-greaterNum()

@@ -22,7 +22,7 @@ por definicion, se considera que factorial de cero ("0!") es 1
 Bonus: podemos ver que la definicion de factorial de n es n * (n - 1)! es decir, "el factorial de un nro n es igual a n multiplicado por el factorial de n menos 1), por ejemplo:
 4! = 4 x 3! = 4 x 3 x 2 x 1 *** HECHO ***
 
-4. Dada una palabra, devolver la cantidad de caracteres que tiene.
+4. Dada una palabra, devolver la cantidad de caracteres que tiene. *** HECHO ***
 
 5. Dada una oracion formada por varias palabras, devolver la cantidad de palabras.
 
@@ -34,7 +34,7 @@ hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo 
 
 ---------------------------
 
-- Ver funciones que reciban valores y return (calculadora).
+- Ver funciones que reciban valores y return (calculadora). *** HECHO ***
 - Posiciones de los arrays, ver mas arrays como ejercicio.
 - Ver arrays dentro de arrays con for aninado.
 

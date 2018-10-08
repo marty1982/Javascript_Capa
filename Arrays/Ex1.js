@@ -1,17 +1,4 @@
-// Ejemplo basico de Array con los dias de la semana y los meses del año
+// Ejemplo basico de array con nombres preestablecidos y como traer datos
 
-var prompt = require('prompt-sync')()
-
-var diasSem = []
-var meses = []
-
-for(i = 0; i < 7; i++) {
-    var diaIngresado = prompt('Ingrese dia: ')
-    diasSem.push(diaIngresado)
-}
-
-for(i=0; i < 12; i++)
-    meses.push(prompt('ingrese los meses del año: '))
-    
-    console.log('Los dias de la semana son: ' + diasSem)
-    console.log('Los meses del año son: ' + meses) 
+var amigos = ['Martin', 'Pedro', 'Juan']
+console.log(amigos[1])
