@@ -4,5 +4,5 @@ var prompt = require('prompt-sync')()
 
 function palabraReversa(str) {
   var arr = []
+}
 
- // seguir...
