@@ -3,7 +3,7 @@
 
 letra = input("Ingrese una letra: ")
 
-if letra in ["a","e","i","o","u"]:
-  print("Usted ingreso una vocal")
+if letra in ["a", "e", "i", "o", "u"]:
+    print("Usted ingreso una vocal")
 else:
-  print("Usted ingreso una consonante")
+    print("Usted ingreso una consonante")

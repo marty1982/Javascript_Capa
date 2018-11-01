@@ -1,4 +1,4 @@
-# Ejemplo basico if
+# Ejemplo basico variables
 
 num1 = 1
 num2 = 2

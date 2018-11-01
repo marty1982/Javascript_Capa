@@ -1,8 +1,7 @@
 // Dada una palabra, devolver la misma palabra al reves, por ejemplo, si la entrada es "hola", el programa debe devolver "aloh".
 
-var prompt = require('prompt-sync')()
-
-function palabraReversa(str) {
-  var arr = []
+function reverseString(str) {
+  return str.split("").reverse().join("")
 }
 
+console.log(reverseString("string dado vuelta"))

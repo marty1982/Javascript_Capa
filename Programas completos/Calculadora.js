@@ -27,7 +27,6 @@ if (input === '+') {
   div()
 }
 
-
 function suma(a, b) {
   resultado = parseInt(num1) + parseInt(num2)
   console.log(`El resultado de la suma es: ${resultado}`)

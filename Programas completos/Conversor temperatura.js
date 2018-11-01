@@ -26,24 +26,24 @@ while (input != 'x') {
         cToK()
     }
 
-    function cToF(a,b) {
+    function cToF(a, b) {
         var resultado = (num * valor2) + valor1
         console.log('\n')
         console.log('El resultado es: \n ' + resultado + '\n')
-        return a,b
+        return a, b
     }
 
-    function fToC(a,b) {
+    function fToC(a, b) {
         var resultado = (num - valor1) / valor2
         console.log('\n')
         console.log('El resultado es: \n' + resultado + '\n')
-        return a,b
+        return a, b
     }
 
-    function cToK(a,b) {
+    function cToK(a, b) {
         var resultado = (num - valor3)
         console.log('\n')
         console.log('El resultado es: \n' + resultado + '\n')
-        return a,b
+        return a, b
     }
 }
