@@ -24,9 +24,9 @@ Bonus: podemos ver que la definicion de factorial de n es n * (n - 1)! es decir,
 
 4. Dada una palabra, devolver la cantidad de caracteres que tiene. *** HECHO ***
 
-5. Dada una oracion formada por varias palabras, devolver la cantidad de palabras.
+5. Dada una oracion formada por varias palabras, devolver la cantidad de palabras. *** HECHO ***
 
-6. Dada una palabra, devolver la misma palabra al reves, por ejemplo, si la entrada es "hola", el programa debe devolver "aloh".
+6. Dada una palabra, devolver la misma palabra al reves, por ejemplo, si la entrada es "hola", el programa debe devolver "aloh". *** HECHO ***
 
 7. Dada una palabra de 4 letras, devolver todos sus anagramas, Es decir, dada la palabra "hola", devolver:
 hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo laho alho aloh laoh oalh aolh loah olah
@@ -39,7 +39,3 @@ hola ohla lhoa hloa olha loha aohl oahl haol ahol ohal hoal hlao lhao ahlo halo 
 - dar vuelta ejercicio de factorial, que lo haga de adelante para atras y no como esta hecho
 
 --------------------------
-
-- ver uso de API http://navi.api.prd.devtrip.com.ar/flights-api/v1/flights/roundtrips?clientKey=2ddffe14f22f63d33a7f&from=BUE&to=MIA&departureDate=2018-11-17&adults=1&children=1&infants=0&cabinClass=economy&returningDate=2018-11-27
-para que me devuelva un array parseado de la busqueda. Armar un codigo simple.
-
